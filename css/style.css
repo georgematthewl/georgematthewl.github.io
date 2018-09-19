@@ -4,7 +4,6 @@ html, body {
     font-family: 'Montserrat', sans-serif;
 }
 
-
 #nav {
     transition: 0.4s;
 }
@@ -109,8 +108,6 @@ html, body {
 .img-size {
     width: 130px;
     height: 130px;
-    border: solid 1px #4a4a4a;
-    border-radius: 50%;
 }
 
 .img-size-no-border {
@@ -158,6 +155,7 @@ html, body {
 .img-fabelio {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .img-fabelio span {
