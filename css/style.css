@@ -40,10 +40,9 @@ h1 {
 }
 
 .homepage {
-    height: 100vh;
     background: url("../assets/bg.png") no-repeat fixed center;
     background-size: cover;
-    min-height: 100vh;
+    height: 100%;
 }
 
 .img {
