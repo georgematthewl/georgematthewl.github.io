@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>My Profile</title>
@@ -7,207 +8,212 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css"/>
-    <link rel="stylesheet" type="text/css" href="css/normalize.css"/>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
-          integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
-          crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="js/index.js" type="text/javascript" rel="script"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="js/index.js" type="text/javascript" rel="script"></script>
 </head>
+
 <body>
-<header>
-    <nav id="nav" class="navbar navbar-expand-md justify-content-center fixed-top">
-        <ul class="navbar-nav" id="mainNav">
-            <li class="nav-item active"><a id="a-home" class="nav-link" href="#homepage">HOME</a></li>
-            <li class="nav-item"><a id="a-skill" class="nav-link" href="#skills">SKILLS</a></li>
-            <li class="nav-item"><a id="a-education" class="nav-link" href="#education">EDUCATION</a></li>
-            <li class="nav-item"><a id="a-exp" class="nav-link" href="#experiences">EXPERIENCES</a></li>
-            <li class="nav-item"><a id="a-contact" class="nav-link" href="#footer">CONTACT</a></li>
-        </ul>
-    </nav>
-</header>
+    <header>
+        <nav id="nav" class="navbar navbar-expand-md fixed-top">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+                <ul class="navbar-nav" id="mainNav">
+                    <li class="nav-item active"><a id="a-home" class="nav-link" href="#homepage">HOME</a></li>
+                    <li class="nav-item"><a id="a-skill" class="nav-link" href="#skills">SKILLS</a></li>
+                    <li class="nav-item"><a id="a-education" class="nav-link" href="#education">EDUCATION</a></li>
+                    <li class="nav-item"><a id="a-exp" class="nav-link" href="#experiences">EXPERIENCES</a></li>
+                    <li class="nav-item"><a id="a-contact" class="nav-link" href="#footer">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
-<section id="homepage" class="homepage">
-    <div class="img">
-        <img class="rounded-circle mx-auto d-block" width="300" height="300" src="assets/profpic.jpg">
-    </div>
-    <div class="text" align="center">
-        <p class="title"><b>Hello! My name is George Matthew!</b></p>
-        <p class="content">
-            I'm currently a student at University of Indonesia, my faculty is Computer Science.
-            <br> I’m interested in web development and software engineering.
-            <br> Right now, I’m still learning how to be a good web developer.
-        </p>
-    </div>
-    <div class="arrow bounce">
-        <a class="fa fa-angle-double-down fa-2x" href="#skills"></a>
-    </div>
-</section>
-
-<section id="skills" class="skills">
-    <h1 align="center">SKILLS</h1>
-    <section class="interpersonal-skill">
-        <div class="title">INTERPERSONAL</div>
-        <div class="container-skills-flexbox">
-            <div class="icon-interpersonal">
-                <img src="assets/team-work.jpg" class="img-size">
-                <span>Team Player</span>
-            </div>
-            <div class="icon-interpersonal">
-                <img src="assets/flexible.png" class="img-size">
-                <span>Flexible</span>
-            </div>
-            <div class="icon-interpersonal">
-                <img src="assets/communication.png" class="img-size">
-                <span>Communication</span>
-            </div>
-            <div class="icon-interpersonal">
-                <img src="assets/open-minded.png" class="img-size">
-                <span>Open Minded</span>
-            </div>
-            <div class="icon-interpersonal">
-                <img src="assets/hardworking.png" class="img-size">
-                <span>Hardworking</span>
-            </div>
+    <section id="homepage" class="homepage">
+        <div class="img">
+            <img class="rounded-circle mx-auto d-block" width="300" height="300" src="assets/profpic.jpg">
         </div>
-    </section>
-
-    <section class="programming-skill">
-        <div class="title">PROGRAMMING</div>
-        <div class="container-skills-flexbox">
-            <div class="icon-interpersonal">
-                <img src="assets/java.png" class="img-size">
-                <span>Java</span>
-            </div>
-            <div class="icon-interpersonal">
-                <img src="assets/python.png" class="img-size">
-                <span>Python</span>
-            </div>
-            <div class="icon-interpersonal">
-                <img src="assets/odoo.png" class="img-size">
-                <span>Odoo</span>
-            </div>
-            <div class="icon-interpersonal">
-                <img src="assets/html.png" class="img-size">
-                <span>HTML5</span>
-            </div>
-            <div class="icon-interpersonal">
-                <img src="assets/css.png" class="img-size">
-                <span>CSS3</span>
-            </div>
-            <div class="icon-interpersonal">
-                <img src="assets/js.png" class="img-size">
-                <span>JS</span>
-            </div>
-        </div>
-    </section>
-</section>
-
-<div class="section">
-    <div class="line"></div>
-</div>
-
-<section id="education" class="container">
-    <h1 align="center">EDUCATION</h1>
-    <div class="row">
-        <div class="col-md-12">
-            <div class="main-timeline">
-                <div class="timeline">
-                    <a class="timeline-content">
-                        <h3 class="title">St. Kristoforus II</h3>
-                        <p class="description">
-                            Primary School
-                            <br>(2005-2011)
-                        </p>
-                    </a>
-                </div>
-                <div class="timeline">
-                    <a class="timeline-content">
-                        <h3 class="title">SMPK 6 Penabur</h3>
-                        <p class="description">
-                            Junior High School
-                            <br>(2011-2014)
-                        </p>
-                    </a>
-                </div>
-                <div class="timeline">
-                    <a class="timeline-content">
-                        <h3 class="title">SMAK 1 Penabur</h3>
-                        <p class="description">
-                            Senior High School
-                            <br>(2014-2017)
-                        </p>
-                    </a>
-                </div>
-                <div class="timeline">
-                    <a class="timeline-content">
-                        <h3 class="title">University of Indonesia</h3>
-                        <p class="description">
-                            University
-                            <br>(2017-present)
-                        </p>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<div class="section">
-    <div class="line"></div>
-</div>
-
-<section id="experiences" class="experiences">
-    <h1 align="center">EXPERIENCES</h1>
-    <a id="link-fabelio-exp" href="fabelio-experiences-page.html">
-        <div class="experiences-contents">
-            <div id="fabelio-exp" class="content">
-                <div class="text-box">
-                    <p class="title"><strong>Full Stack Developer Intern</strong></p>
-                    <p class="body-txt"><i>At Fabelio</i></p>
-                    <p class="desc-exp">
-                        <br>Fixed bugs and improve performance of Fabelio’s website.
-                        <br> Created new HR system using OpenERP Odoo.
-                    </p>
-                </div>
-                <div class="img-fabelio">
-                    <img src="assets/fabelio.png" width="164" height="36">
-                    <span>(May 2018 - August 2018)</span>
-                </div>
-            </div>
-        </div>
-    </a>
-</section>
-
-<footer>
-    <section id="footer" class="footer">
-        <div class="text-footer">
-            <p class="title">Interest with what you see here?</p>
-            <p class="body-text">Feel free to contact me!
-                <br><i class="fas fa-phone"></i> +6285711688686
-                <br><i class="fas fa-envelope"></i> george.matthew@ui.ac.id
-                <br><br> University of Indonesia, Depok, West java
+        <div class="text" align="center">
+            <p class="title"><b>Hello! My name is George Matthew!</b></p>
+            <p class="content">
+                I'm currently a student at University of Indonesia, my faculty is Computer Science.
+                <br> I’m interested in web development and software engineering.
+                <br> Right now, I’m still learning how to be a good web developer.
             </p>
         </div>
-        <div class="footer-icon">
-            <ul class="footer-img-list">
-                <li><a href="https://www.facebook.com/georgematthew.l" target="_blank"><i
-                        class="fab fa-facebook"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/georgematthewl/" target="_blank"><i
-                        class="fab fa-linkedin-in"></i></a></li>
-                <li><a href="https://twitter.com/georgematthewl" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="https://www.instagram.com/georgematthewl/" target="_blank"><i class="fab fa-instagram"></i></a>
-                </li>
-                <li><a href="https://github.com/georgematthewl" target="_blank"><i class="fab fa-github"></i></a></li>
-            </ul>
+        <div class="arrow bounce">
+            <a class="fa fa-angle-double-down fa-2x" href="#skills"></a>
         </div>
-        <div class="year">- 2018 -</div>
     </section>
-</footer>
+
+    <section id="skills" class="skills">
+        <h1 align="center">SKILLS</h1>
+        <section class="interpersonal-skill">
+            <div class="title">INTERPERSONAL</div>
+            <div class="container-skills-flexbox">
+                <div class="icon-interpersonal">
+                    <img src="assets/team-work.jpg" class="img-size">
+                    <span>Team Player</span>
+                </div>
+                <div class="icon-interpersonal">
+                    <img src="assets/flexible.png" class="img-size">
+                    <span>Flexible</span>
+                </div>
+                <div class="icon-interpersonal">
+                    <img src="assets/communication.png" class="img-size">
+                    <span>Communication</span>
+                </div>
+                <div class="icon-interpersonal">
+                    <img src="assets/open-minded.png" class="img-size">
+                    <span>Open Minded</span>
+                </div>
+                <div class="icon-interpersonal">
+                    <img src="assets/hardworking.png" class="img-size">
+                    <span>Hardworking</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="programming-skill">
+            <div class="title">PROGRAMMING</div>
+            <div class="container-skills-flexbox">
+                <div class="icon-interpersonal">
+                    <img src="assets/java.png" class="img-size">
+                    <span>Java</span>
+                </div>
+                <div class="icon-interpersonal">
+                    <img src="assets/python.png" class="img-size">
+                    <span>Python</span>
+                </div>
+                <div class="icon-interpersonal">
+                    <img src="assets/odoo.png" class="img-size">
+                    <span>Odoo</span>
+                </div>
+                <div class="icon-interpersonal">
+                    <img src="assets/html.png" class="img-size">
+                    <span>HTML5</span>
+                </div>
+                <div class="icon-interpersonal">
+                    <img src="assets/css.png" class="img-size">
+                    <span>CSS3</span>
+                </div>
+                <div class="icon-interpersonal">
+                    <img src="assets/js.png" class="img-size">
+                    <span>JS</span>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <div class="section">
+        <div class="line"></div>
+    </div>
+
+    <section id="education" class="container">
+        <h1 align="center">EDUCATION</h1>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="main-timeline">
+                    <div class="timeline">
+                        <a class="timeline-content">
+                            <h3 class="title">St. Kristoforus II</h3>
+                            <p class="description">
+                                Primary School
+                                <br>(2005-2011)
+                            </p>
+                        </a>
+                    </div>
+                    <div class="timeline">
+                        <a class="timeline-content">
+                            <h3 class="title">SMPK 6 Penabur</h3>
+                            <p class="description">
+                                Junior High School
+                                <br>(2011-2014)
+                            </p>
+                        </a>
+                    </div>
+                    <div class="timeline">
+                        <a class="timeline-content">
+                            <h3 class="title">SMAK 1 Penabur</h3>
+                            <p class="description">
+                                Senior High School
+                                <br>(2014-2017)
+                            </p>
+                        </a>
+                    </div>
+                    <div class="timeline">
+                        <a class="timeline-content">
+                            <h3 class="title">University of Indonesia</h3>
+                            <p class="description">
+                                University
+                                <br>(2017-present)
+                            </p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section">
+        <div class="line"></div>
+    </div>
+
+    <section id="experiences" class="experiences">
+        <h1 align="center">EXPERIENCES</h1>
+        <a id="link-fabelio-exp" href="fabelio-experiences-page.html">
+            <div class="experiences-contents">
+                <div id="fabelio-exp" class="content">
+                    <div class="text-box">
+                        <p class="title"><strong>Software Engineer Intern</strong></p>
+                        <p class="body-txt"><i>At Fabelio</i></p>
+                        <p class="desc-exp">
+                            <br>Fixed bugs and improve performance of Fabelio’s website.
+                            <br>Created new HR system using OpenERP Odoo.
+                        </p>
+                    </div>
+                    <div class="img-fabelio">
+                        <img src="assets/fabelio.png" width="164" height="36">
+                        <span>(May 2018 - August 2018)</span>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </section>
+
+    <footer>
+        <section id="footer" class="footer">
+            <div class="text-footer">
+                <p class="title">Interest with what you see here?</p>
+                <p class="body-text">Feel free to contact me!
+                    <br><i class="fas fa-phone"></i> +6285711688686
+                    <br><i class="fas fa-envelope"></i> george.matthew@ui.ac.id
+                    <br><br> University of Indonesia, Depok, West java
+                </p>
+            </div>
+            <div class="footer-icon">
+                <ul class="footer-img-list">
+                    <li><a href="https://www.facebook.com/georgematthew.l" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/georgematthewl/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a href="https://twitter.com/georgematthewl" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="https://www.instagram.com/georgematthewl/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li><a href="https://github.com/georgematthewl" target="_blank"><i class="fab fa-github"></i></a></li>
+                </ul>
+            </div>
+            <div class="year">Copyright © 2018 George Matthew Limongan</div>
+        </section>
+    </footer>
 
 </body>
+
 </html>
