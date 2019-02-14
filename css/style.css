@@ -433,10 +433,13 @@ h1 {
 }
 
 .fa-angle-double-down {
+    transition: 0.5s;
     color: black;
 }
 
 .fa-angle-double-down:hover {
+    transition: 0.5s;
+    text-decoration: none;
     color: lightskyblue;
 }
 
@@ -776,6 +779,14 @@ h1 {
         bottom: 16px;
         right: 12px;
         padding: 8px;
+    }
+
+    #preloader {
+        display: none;
+    }
+
+    #status {
+        display: none;
     }
 }
 
