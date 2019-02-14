@@ -11,8 +11,8 @@
     <link rel="stylesheet" type="text/css" href="css/normalize.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
         crossorigin="anonymous">
-
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
@@ -20,6 +20,9 @@
 </head>
 
 <body>
+    <div id="preloader">
+        <div id="status">&nbsp;</div>
+    </div>
     <header>
         <nav id="nav" class="navbar navbar-expand-md fixed-top">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -56,32 +59,6 @@
 
     <section id="skills" class="skills">
         <h1 align="center">SKILLS</h1>
-        <section class="interpersonal-skill">
-            <div class="title">INTERPERSONAL</div>
-            <div class="container-skills-flexbox">
-                <div class="icon-interpersonal">
-                    <img src="assets/team-work.jpg" class="img-size">
-                    <span>Team Player</span>
-                </div>
-                <div class="icon-interpersonal">
-                    <img src="assets/flexible.png" class="img-size">
-                    <span>Flexible</span>
-                </div>
-                <div class="icon-interpersonal">
-                    <img src="assets/communication.png" class="img-size">
-                    <span>Communication</span>
-                </div>
-                <div class="icon-interpersonal">
-                    <img src="assets/open-minded.png" class="img-size">
-                    <span>Open Minded</span>
-                </div>
-                <div class="icon-interpersonal">
-                    <img src="assets/hardworking.png" class="img-size">
-                    <span>Hardworking</span>
-                </div>
-            </div>
-        </section>
-
         <section class="programming-skill">
             <div class="title">PROGRAMMING</div>
             <div class="container-skills-flexbox">
@@ -209,9 +186,13 @@
                     <li><a href="https://github.com/georgematthewl" target="_blank"><i class="fab fa-github"></i></a></li>
                 </ul>
             </div>
-            <div class="year">Copyright © 2018 George Matthew Limongan</div>
+            <div class="year">Copyright © 2019 George Matthew Limongan</div>
         </section>
     </footer>
+
+    <div id="arrow-up" class="arrow-up">
+        <a class="fa fa-arrow-circle-up fa-3x button-decoration" href="#homepage"></a>
+    </div>
 
 </body>
 

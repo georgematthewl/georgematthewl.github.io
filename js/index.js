@@ -1,4 +1,8 @@
 $(document).ready(function () {
+    $(window).on('load', function () {
+        $('#status').delay(800).fadeOut();
+        $('#preloader').delay(1200).fadeOut('slow');
+    });
 
     // Smooth scrolling effect
     $(".fa-angle-double-down").click(function () {
@@ -6,6 +10,25 @@ $(document).ready(function () {
             scrollTop: $("#skills").offset().top
         }, 800);
     });
+
+    // When the user clicks on the button, scroll to the top of the document
+    $(".fa-arrow-circle-up").click(function () {
+        $('html, body').animate({
+            scrollTop: $("#homepage").offset().top
+        }, 800);
+    });
+
+    window.onscroll = function () {
+        scrollFunction()
+    };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 600 || document.documentElement.scrollTop > 600) {
+            document.getElementById("arrow-up").style.display = "block";
+        } else {
+            document.getElementById("arrow-up").style.display = "none";
+        }
+    }
 
     if ($(window).width() < 768) {
         $('.navbar').addClass("navbar-dark");
